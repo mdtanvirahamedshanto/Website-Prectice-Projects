@@ -1,0 +1,19 @@
+div{
+    width: 200px;
+    height: 200px;
+    box-shadow: 16px 14px 20px #0000008c;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div::before{
+    content: '';
+    background-image: conic-gradient(#ff0052 20deg, transparent 120deg);
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    animation: rotate 2s linear infinite;
+}
