@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #8a7b7b;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    max-width: 1200px;
+    background-color: #bbebe4;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio
+{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.header-contact{
+    float: right;
+    padding: 20px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    margin: 20px auto
+    width: 100%;
+    border-bottom: none;
+}
+
+#personal-section{
+
+}
+.content{
+    padding-top: 20px auto;
+
+}
+.left-content{
+    width: 30;
+    float: left;
+}
+.right-content{
+    width: 70%;
+    float: right;
+
+}
+.common-hr{
+    border: 1px solid black;
+    width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+.left-div{
+    float: left;
+    width: 45%;
+}
+.right-div{
+    float: right;
+    width: 45%;
+}
+
+.fotter-section{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+.fotter-section a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.fotter-section a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.fotter-section p{
+    color: white;
+    font-weight: bold;
+}
+```
